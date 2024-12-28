@@ -1,0 +1,44 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+.roof {
+  border-right: 100px solid transparent;
+  border-left: 100px solid transparent;
+  border-bottom: 100px solid rgb(29, 12, 163);
+  width: 200px;
+  height: 0px;
+  margin: 100px 0 0 100px;
+}
+.wall {
+  position: relative;
+  background-color: red;
+  width: 200px;
+  height: 130px;
+  margin-left: 100px;
+}
+.door {
+  position: absolute;
+  width: 50px;
+  height: 90px;
+  top: 40px;
+  right: 10px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background-color: rgb(66, 8, 8);
+}
+.windows {
+  position: absolute;
+  width: 100px;
+  height: 60px;
+  background-color: aliceblue;
+  top: 30px;
+  left: 20px;
+  border: 5px solid black;
+}
+.windows div {
+  width: 50px;
+  height: 50px;
+  border-right: 4px solid black;
+}
